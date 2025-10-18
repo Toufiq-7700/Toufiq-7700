@@ -1,16 +1,28 @@
-## Hi there 👋
+<!-- Animated Header -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&weight=700&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=550&lines=Hey+there%2C+I'm+Toufiq!+👋" alt="Typing SVG" />
+</h1>
 
-<!--
-**Toufiq-7700/Toufiq-7700** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 🌟 About Me  
+> **Passionate about AI and Machine Learning**, always curious to solve problems and create practical solutions.  
+> Let's connect and build something amazing together! 🤝
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 📊 My LeetCode Stats  
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Toufiq7700?theme=dark&font=Roboto&ext=heatmap)](https://leetcode.com/u/Toufiq7700/)
+
+---
+
+### 🌐 Connect with Me  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](your_linkedin_link_here)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ToufiqImroz)
+
+---
+
+⭐ *Profile Views*  
+![](https://komarev.com/ghpvc/?username=ToufiqImroz&color=blue)
