@@ -6,8 +6,9 @@
 ---
 
 ### 🌟 About Me  
-> **Passionate about AI and Machine Learning**, always curious to solve problems and create practical solutions.  
-> Let's connect and build something amazing together! 🤝
+> I am deeply passionate about **Artificial Intelligence** and **Machine Learning**, with a strong drive to solve problems and develop practical, impactful solutions.  
+> I enjoy transforming ideas into reality through clean, efficient code and continuous learning.  
+> Committed to expanding my technical skills and exploring innovative technologies to create meaningful advancements.  
 
 ---
 
