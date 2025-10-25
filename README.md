@@ -5,10 +5,11 @@
 
 ---
 
-### 🌟 About Me  
-> I am deeply passionate about **Artificial Intelligence** and **Machine Learning**, with a strong drive to solve problems and develop practical, impactful solutions.  
-> I enjoy transforming ideas into reality through clean, efficient code and continuous learning.  
-> Committed to expanding my technical skills and exploring innovative technologies to create meaningful advancements.  
+### ### 🌟 About Me  
+> I’m **Toufiq**, a passionate learner exploring the world of **Artificial Intelligence** and **Machine Learning**.  
+> I enjoy solving problems through coding and understanding how technology can make everyday life smarter.  
+> I’m constantly improving my skills by practicing algorithms, data structures, and real-world projects.  
+> My goal is to build intelligent and efficient solutions that combine creativity, logic, and impact.  
 
 ---
 
