@@ -5,7 +5,7 @@
 
 ---
 
-### ### 🌟 About Me  
+### 🌟About Me  
 > I’m **Toufiq**, a passionate learner exploring the world of **Artificial Intelligence** and **Machine Learning**.  
 > I enjoy solving problems through coding and understanding how technology can make everyday life smarter.  
 > I’m constantly improving my skills by practicing algorithms, data structures, and real-world projects.  
