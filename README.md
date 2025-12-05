@@ -21,7 +21,7 @@
 
 ### 🌐 Connect with Me  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](your_linkedin_link_here)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([your_linkedin_link_here](https://www.linkedin.com/in/md-toufiq-imroz-khealid-khan-b155a4396/))  
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ToufiqImroz)
 
 ---
