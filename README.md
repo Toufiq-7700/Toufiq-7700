@@ -9,3 +9,43 @@
 </div>
 
 <!-- Add any additional profile widgets, stats, or text below! -->
+
+---
+
+### 🌟 About Me  
+> I’m **Toufiq**, a passionate learner exploring the world of **Artificial Intelligence** and **Machine Learning**.  
+> I enjoy solving problems through coding and understanding how technology can make everyday life smarter.  
+> I’m constantly improving my skills by practicing algorithms, data structures, and real-world projects.  
+> My goal is to build intelligent and efficient solutions that combine creativity, logic, and impact.  
+
+---
+
+### 📊 My LeetCode Stats  
+
+<div align="center">
+  <a href="https://leetcode.com/u/Toufiq7700/">
+    <img src="https://leetcard.jacoblin.cool/Toufiq7700?theme=dark&font=Roboto&ext=heatmap" alt="LeetCode Stats" />
+  </a>
+</div>
+
+---
+
+### 🌐 Connect with Me  
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/md-toufiq-imroz-khealid-khan-b155a4396/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/ToufiqImroz">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</div>
+
+---
+
+<div align="center">
+  ⭐ <i>Profile Views</i><br><br>
+  <img src="https://komarev.com/ghpvc/?username=ToufiqImroz&color=blue" alt="Profile Views" />
+</div>
+
