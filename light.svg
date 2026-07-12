@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610">
+  <defs>
+    <!-- VARIABLES (editable) -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Fira+Code:wght@400;500&amp;display=swap');
+      :root {
+        --bg: #FFFFFF;
+        --card-bg: #F8FAFC;
+        --border: rgba(15, 23, 42, 0.08);
+        --primary: #0F172A;
+        --secondary: #475569;
+        --accent1: #2563EB;
+        --accent2: #06B6D4;
+        --accent3: #10B981;
+      }
+      .font-sans { font-family: 'Inter', system-ui, sans-serif; }
+      .font-mono { font-family: 'Fira Code', monospace; }
+      .typing-text { opacity: 0; }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+
+    <linearGradient id="ascii-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#2563EB">
+        <animate attributeName="stop-color" values="#2563EB;#06B6D4;#2563EB" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(15,23,42,0.12)" />
+      <stop offset="100%" stop-color="rgba(15,23,42,0.04)" />
+    </linearGradient>
+
+    <linearGradient id="accent-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 0.03 0" />
+    </filter>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1180" height="610" fill="url(#bg-grad)" />
+  <rect width="1180" height="610" filter="url(#noise)" opacity="0.6" />
+  
+  <!-- Animated Background Orbs -->
+  <circle cx="200" cy="100" r="150" fill="#2563EB" filter="url(#glow)" opacity="0.1">
+    <animate attributeName="cx" values="200; 250; 200" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="100; 150; 100" dur="12s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1000" cy="500" r="200" fill="#06B6D4" filter="url(#glow)" opacity="0.1">
+    <animate attributeName="cx" values="1000; 950; 1000" dur="15s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- ==================================================== -->
+  <!-- LEFT PANEL (Terminal / ASCII)                        -->
+  <!-- ==================================================== -->
+  <g transform="translate(24, 24)">
+    <rect width="424" height="562" rx="24" fill="#F8FAFC" stroke="url(#card-border)" stroke-width="1.5" />
+    
+    <!-- Terminal Header -->
+    <circle cx="24" cy="24" r="6" fill="#EF4444" opacity="0.8"/>
+    <circle cx="44" cy="24" r="6" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="64" cy="24" r="6" fill="#10B981" opacity="0.8"/>
+    <text x="212" y="28" fill="#475569" font-size="12" text-anchor="middle" class="font-mono">avatar.sh</text>
+    <line x1="0" y1="48" x2="424" y2="48" stroke="rgba(15,23,42,0.05)" stroke-width="1"/>
+
+    <!-- ASCII PORTRAIT -->
+    <g transform="translate(40, 100)" fill="url(#ascii-grad)" font-size="10" class="font-mono">
+      <animateTransform attributeName="transform" type="translate" values="40,100; 40,95; 40,100" dur="6s" repeatCount="indefinite"/>
+      <text>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,...............................</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,..,,,,,,,,,,,,,,,,,,,,,,,,,,,,.......</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,.........,,,,...,,,,,,,,,,,..........</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,,,,,,,...,,,,...............</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,,,,,,,......................</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,,,,,,,,,,,......,,,..,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,,,,:::::,,,,,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,:+?%%S%%%?;,,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,:?SSS######%;,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,+SS%%**?%S#%:,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,;%++*;+?%*?%:,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,:::,::::::::::,:+;+*+*?**++,,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,:;;;;+?++*:,,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,,;;++*%?%*,,,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,,,,**+*?%%*:,,,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,,,,,;;+*++*?%%S%+:,,,,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,,,:;+?S%?????SSSSSSS?;:,,,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,,,,,,:*??SS%???%%%SS%%SSSS%%*;,,,,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">::::,:::,:*%?%S%%%??%%%%%??%%%S%SS%*,,,,:,,:,</tspan>
+        <tspan x="0" dy="1.2em">:::::::,:*%S%S%?%%?%%?%%??*??%%%SSSS+,,,::,::</tspan>
+        <tspan x="0" dy="1.2em">::::::::*?%SSS???%%S%%%???***S%SS%SS%;::::;;;</tspan>
+        <tspan x="0" dy="1.2em">:::::::+?%?%SS???%%S%%%????**SS#%#S%#+:::::::</tspan>
+        <tspan x="0" dy="1.2em">::::::+?%%?S#%**?%S%%%%????**#####%S#*;::,,,,</tspan>
+        <tspan x="0" dy="1.2em">:::::;%?%SS#@%**%S%??%%%%??*?####S#SS+,,,,,,,</tspan>
+        <tspan x="0" dy="1.2em">,,,,,+S%%S###?*?%%%%%%S%???*S@@SSSSSS+,,,,,,:</tspan>
+        <tspan x="0" dy="1.2em">,,,,,*SSS##*?**?%%%%%S%?????###SS%%SS+,::::::</tspan>
+        <tspan x="0" dy="1.2em">::::;??%S#@++??%%%%%%%????%S####SSSSS;,::::::</tspan>
+        <tspan x="0" dy="1.2em">*+*%?%??%##SS?%%%?%%%%??%S%S#@#SS%S#%::::::::</tspan>
+        <tspan x="0" dy="1.2em">#%+*%%%***%#SS?%%%%%%%%%%SS@@#%?%S##?::::::::</tspan>
+        <tspan x="0" dy="1.2em">S%**S##+::;%SS%?%%%%S%%%S##%**?%S##%+;,,,,,,:</tspan>
+        <tspan x="0" dy="1.2em">%??%#@@#+:;+S%%?%%SSS%%SS%+;;;+%###?+*;+??+*%</tspan>
+        <tspan x="0" dy="1.2em">SSS##@@#%;:;*SS%%S#SSS%*;;;+*?S#@##@#S?%S*?S%</tspan>
+        <tspan x="0" dy="1.2em">#######%S%;;;+?%%##%*+:::;?%SS##@#SS#SSSS%SS%</tspan>
+        <tspan x="0" dy="1.2em">######S??%+::;;*SS+:;;++;?##S###@#%%%SSS?*SS%</tspan>
+      </text>
+      <!-- Scanline -->
+      <line x1="-20" y1="0" x2="384" y2="0" stroke="rgba(6, 182, 212, 0.3)" stroke-width="2" filter="url(#glow)">
+        <animate attributeName="y1" values="0; 400; 0" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="0; 400; 0" dur="4s" repeatCount="indefinite" />
+      </line>
+    </g>
+
+    <!-- Terminal Prompt -->
+    <text x="32" y="520" fill="#10B981" font-size="14" class="font-mono">➜</text>
+    <text x="52" y="520" fill="#06B6D4" font-size="14" class="font-mono">~</text>
+    <text x="68" y="520" fill="#0F172A" font-size="14" class="font-mono">./initialize.sh<animate attributeName="opacity" values="0;1;1;0;0" dur="2s" repeatCount="indefinite" /></text>
+    <rect x="180" y="508" width="8" height="14" fill="#0F172A">
+      <animate attributeName="opacity" values="1;0" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ==================================================== -->
+  <!-- RIGHT PANEL (Content)                                -->
+  <!-- ==================================================== -->
+  <g transform="translate(472, 24)">
+    <rect width="684" height="562" rx="24" fill="#F8FAFC" stroke="url(#card-border)" stroke-width="1.5" />
+    
+    <g transform="translate(48, 64)">
+      <!-- Greeting -->
+      <text x="0" y="0" fill="#0F172A" font-size="48" font-weight="800" class="font-sans">Hi 👋</text>
+      
+      <!-- Intro -->
+      <text x="0" y="60" fill="#475569" font-size="32" font-weight="600" class="font-sans">I'm <tspan fill="#0F172A">Toufiq Imroz</tspan></text>
+
+      <!-- TYPING ANIMATION ROLES -->
+      <g transform="translate(0, 110)" font-size="24" font-weight="600" class="font-sans">
+        <text x="0" y="0" fill="url(#accent-text)" class="typing-text">Software Engineer
+          <animate attributeName="opacity" values="1;1;0;0;0" dur="10s" begin="0s" repeatCount="indefinite" />
+        </text>
+        <text x="0" y="0" fill="url(#accent-text)" class="typing-text">AI Researcher
+          <animate attributeName="opacity" values="0;0;1;1;0" dur="10s" begin="2s" repeatCount="indefinite" />
+        </text>
+        <text x="0" y="0" fill="url(#accent-text)" class="typing-text">Machine Learning Engineer
+          <animate attributeName="opacity" values="0;0;1;1;0" dur="10s" begin="4s" repeatCount="indefinite" />
+        </text>
+        <text x="0" y="0" fill="url(#accent-text)" class="typing-text">Full Stack Developer
+          <animate attributeName="opacity" values="0;0;1;1;0" dur="10s" begin="6s" repeatCount="indefinite" />
+        </text>
+        <text x="0" y="0" fill="url(#accent-text)" class="typing-text">Open Source Contributor
+          <animate attributeName="opacity" values="0;0;1;1;0" dur="10s" begin="8s" repeatCount="indefinite" />
+        </text>
+      </g>
+
+      <!-- Sequential Reveal Info -->
+      <g transform="translate(0, 180)" font-size="16" fill="#475569" class="font-sans font-weight-500">
+        <!-- Location -->
+        <g opacity="0"><animate attributeName="opacity" to="1" dur="1s" fill="freeze" begin="0.5s"/>
+          <text x="0" y="0" font-weight="600" fill="#0F172A">Location:</text>
+          <text x="120" y="0">Bangladesh</text>
+        </g>
+        <!-- Education -->
+        <g opacity="0"><animate attributeName="opacity" to="1" dur="1s" fill="freeze" begin="1s"/>
+          <text x="0" y="32" font-weight="600" fill="#0F172A">Education:</text>
+          <text x="120" y="32">United International University</text>
+        </g>
+        <!-- Current Focus -->
+        <g opacity="0"><animate attributeName="opacity" to="1" dur="1s" fill="freeze" begin="1.5s"/>
+          <text x="0" y="64" font-weight="600" fill="#0F172A">Current Focus:</text>
+          <text x="120" y="64">AI Research, Machine Learning, Networking</text>
+        </g>
+      </g>
+
+      <!-- SKILLS -->
+      <g transform="translate(0, 280)">
+        <text x="0" y="0" font-size="14" font-weight="700" fill="#0F172A" class="font-sans" letter-spacing="1">SKILLS &amp; TECHNOLOGIES</text>
+        
+        <g transform="translate(0, 24)">
+          <g class="skill-pill" transform="translate(0, 0)">
+            <rect width="72" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="36" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">React</text>
+          </g>
+          <g class="skill-pill" transform="translate(80, 0)">
+            <rect width="84" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="42" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Next.js</text>
+          </g>
+          <g class="skill-pill" transform="translate(172, 0)">
+            <rect width="104" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="52" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">TypeScript</text>
+          </g>
+          <g class="skill-pill" transform="translate(284, 0)">
+            <rect width="104" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="52" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">JavaScript</text>
+          </g>
+          <g class="skill-pill" transform="translate(396, 0)">
+            <rect width="84" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="42" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Node.js</text>
+          </g>
+          
+          <!-- Second Row -->
+          <g class="skill-pill" transform="translate(0, 40)">
+            <rect width="84" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="42" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Express</text>
+          </g>
+          <g class="skill-pill" transform="translate(92, 40)">
+            <rect width="104" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="52" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Spring Boot</text>
+          </g>
+          <g class="skill-pill" transform="translate(204, 40)">
+            <rect width="64" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="32" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Java</text>
+          </g>
+          <g class="skill-pill" transform="translate(276, 40)">
+            <rect width="80" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="40" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Python</text>
+          </g>
+          <g class="skill-pill" transform="translate(364, 40)">
+            <rect width="60" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="30" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">C++</text>
+          </g>
+
+          <!-- Third Row -->
+          <g class="skill-pill" transform="translate(0, 80)">
+            <rect width="112" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="56" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">TensorFlow</text>
+          </g>
+          <g class="skill-pill" transform="translate(120, 80)">
+            <rect width="104" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="52" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Scikit-learn</text>
+          </g>
+          <g class="skill-pill" transform="translate(232, 80)">
+            <rect width="84" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="42" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Docker</text>
+          </g>
+          <g class="skill-pill" transform="translate(324, 80)">
+            <rect width="112" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="56" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">PostgreSQL</text>
+          </g>
+          
+          <!-- Fourth Row -->
+          <g class="skill-pill" transform="translate(0, 120)">
+            <rect width="104" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="52" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">MongoDB</text>
+          </g>
+          <g class="skill-pill" transform="translate(112, 120)">
+            <rect width="72" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="36" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Linux</text>
+          </g>
+          <g class="skill-pill" transform="translate(192, 120)">
+            <rect width="56" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="28" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Git</text>
+          </g>
+          <g class="skill-pill" transform="translate(256, 120)">
+            <rect width="84" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="42" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">GitHub</text>
+          </g>
+          <g class="skill-pill" transform="translate(348, 120)">
+            <rect width="112" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="56" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Tailwind CSS</text>
+          </g>
+          <g class="skill-pill" transform="translate(468, 120)">
+            <rect width="72" height="32" rx="16" fill="#E2E8F0" stroke="rgba(15,23,42,0.1)"/>
+            <text x="36" y="21" font-size="12" fill="#0F172A" class="font-sans" text-anchor="middle">Unity</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- SOCIALS -->
+      <g transform="translate(0, 460)">
+        <line x1="0" y1="0" x2="588" y2="0" stroke="rgba(15,23,42,0.05)" stroke-width="1"/>
+        <g transform="translate(0, 24)">
+          <!-- GitHub -->
+          <a href="https://github.com/ToufiqImroz" target="_blank">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" fill="#475569"/>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/ToufiqImroz" target="_blank" transform="translate(48, 0)">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="#475569"/>
+          </a>
+          <!-- Email -->
+          <a href="mailto:email@example.com" target="_blank" transform="translate(96, 0)">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#475569" transform="scale(1)"/>
+          </a>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
