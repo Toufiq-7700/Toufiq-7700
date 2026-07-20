@@ -46,10 +46,3 @@
   </a>
 </div>
 
----
-
-<div align="center">
-  ⭐ <i>Profile Views</i><br><br>
-  <img src="https://komarev.com/ghpvc/?username=Toufiq-7700&color=blue" alt="Profile Views" />
-</div>
-
