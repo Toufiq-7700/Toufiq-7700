@@ -20,16 +20,6 @@
 
 ---
 
-### 📊 My LeetCode Stats  
-
-<div align="center">
-  <a href="https://leetcode.com/u/Toufiq7700/">
-    <img src="https://leetcard.jacoblin.cool/Toufiq7700?theme=dark&font=Roboto&ext=heatmap" alt="LeetCode Stats" />
-  </a>
-</div>
-
----
-
 ### 🌐 Connect with Me  
 
 <div align="center">
@@ -45,4 +35,15 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </div>
+
+---
+
+### 📊 My LeetCode Stats  
+
+<div align="center">
+  <a href="https://leetcode.com/u/Toufiq7700/">
+    <img src="https://leetcard.jacoblin.cool/Toufiq7700?theme=dark&font=Roboto&ext=heatmap" alt="LeetCode Stats" />
+  </a>
+</div>
+
 
